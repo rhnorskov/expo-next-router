@@ -1,0 +1,46 @@
+{
+  "name": "expo-next-router",
+  "description": "Next.js App Router-style routing for expo-router",
+  "keywords": [
+    "next.js",
+    "app router",
+    "expo",
+    "routing",
+    "navigation",
+    "react native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhnorskov/expo-next-router.git"
+  },
+  "license": "ISC",
+  "author": "Rasmus Nørskov",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup --clean",
+    "dev": "tsup --watch --silent",
+    "format": "prettier --write .",
+    "lint": "eslint --ext js,ts,tsx .",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@rhnorskov/eslint-config": "^1.1.0",
+    "@rhnorskov/prettier-config": "^1.1.0",
+    "@tsconfig/node16": "^1.0.4",
+    "@types/node": "^20.2.5",
+    "expo-router": "^1.5.3",
+    "semantic-release": "^21.0.3",
+    "tsup": "^6.7.0"
+  },
+  "peerDependencies": {
+    "expo-router": "^1.5.3"
+  }
+}
