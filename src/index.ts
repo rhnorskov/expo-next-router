@@ -6,9 +6,7 @@ import { revert, convert, conversions } from "./convert";
 
 export function createRouter(context: RequireContext) {
   function requireContext(this: RequireContext, id: string) {
-    this.id = revert(id);
-
-    return context(this.id);
+    return context(revert(id));
   }
 
   requireContext.keys = () => {
