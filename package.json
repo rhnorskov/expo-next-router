@@ -28,6 +28,11 @@
     "lint": "eslint --ext js,ts,tsx .",
     "semantic-release": "semantic-release"
   },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "dependencies": {
     "path": "^0.12.7"
   },
