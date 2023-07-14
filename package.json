@@ -46,6 +46,6 @@
     "tsup": "^6.7.0"
   },
   "peerDependencies": {
-    "expo-router": "^1.5.3"
+    "expo-router": "^1.0.0 || ^2.0.0"
   }
 }
