@@ -4,7 +4,7 @@ import type { RequireContext } from "expo-router/src/types";
 
 import { revert, convert, conversions } from "./convert";
 
-export function createRouter(context: RequireContext) {
+export function convertContext(context: RequireContext) {
   function requireContext(this: RequireContext, id: string) {
     return context(revert(id));
   }
@@ -24,4 +24,4 @@ export function createRouter(context: RequireContext) {
   return requireContext;
 }
 
-export default createRouter;
+export default convertContext;
