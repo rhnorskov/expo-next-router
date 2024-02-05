@@ -1,6 +1,6 @@
 {
   "name": "expo-next-router",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Next.js App Router-style routing for expo-router",
   "keywords": [
     "next.js",
@@ -42,6 +42,6 @@
     "tsup": "^7.2.0"
   },
   "peerDependencies": {
-    "expo-router": "^1.0.0 || ^2.0.0"
+    "expo-router": "^1.0.0 || ^2.0.0 || ^3.0.0"
   }
 }

@@ -1,5 +1,11 @@
 # expo-next-router
 
+## 2.0.3
+
+### Patch Changes
+
+- chore: add expo router 3 support
+
 ## 2.0.2
 
 ### Patch Changes
